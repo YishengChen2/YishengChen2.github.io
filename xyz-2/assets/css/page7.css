@@ -1,0 +1,51 @@
+.box{
+	width:200px;
+	height:100vh;
+	background-color:red;
+	font-size:240px;
+	overflow:scroll;
+	display:inline-block;
+
+}
+.box2{
+	font-family:arial;
+	font-size:140px;
+	width:100%;
+	background-color:red;
+	white-space:nowrap;
+	overflow:scroll;
+	filter:invert(100%);
+
+}
+.box2:hover{
+	background-color:blue;
+	width:500px;
+	font-size:40px;
+	transition:2s;
+}
+
+.box3 {
+	width:400px;
+	height:400px;
+	background-color:red;
+	margin-left:100px;
+	margin-top:100px;
+	padding:20px;
+	overflow:scroll;
+	font-size:80px;
+	font-family:arial;
+	border-radius:100%;
+}
+.rotate{
+	font-size:100px;
+	font-family:arial;
+	text-transform:uppercase;
+	transform:rotate(90deg); 
+	transform-origin:0 0;/bottom-left
+	margin-top:400px;
+
+
+
+}
+filter:blur(20px);
+filter:grayscale(100%);

@@ -1,0 +1,64 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 70px;
+	background-color:white;
+}
+
+.top {
+	font-family:Allerta Stencil;
+	color:white;
+	font-size:170px;
+	background-color:pink;
+}
+
+
+.bottom{
+	font-family:Allerta Stencil;
+	font-size:80px;
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	background-color:pink;
+	width:100%;
+	text-align:center;
+	color:white;
+
+}
+
+.title{
+	color:white;
+	font-size:70px;
+	font-family:Allerta Stencil;
+	padding:20px;
+	width:250px;
+	height:200px;
+	background-color:purple;
+	position:fixed;
+	bottom:60px;
+	right:60px;
+	z-index:2;
+	text-align:center;
+
+}
+.message{
+	font-family:Allerta Stencil ;
+	font-size:100px;
+	font-weight:bold;
+	color:white;
+	text-align:left;
+	line-height: 150px;
+
+    background-image:-webkit-linear-gradient(bottom,#2d279a,purple,#9e9bce); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
+
+
+}
+ 
+
+
+
+
+
+
+

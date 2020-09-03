@@ -1,0 +1,63 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background-color: #fff17f;
+}
+
+
+
+
+span {
+	color:#1dd66b;
+}
+
+
+.date {
+	font-size:30px;
+	font-family:Blazium;
+	color:#1dd66b;
+	text-align:center;
+
+}
+
+.title {
+	font-family:Blazium;
+	font-size:30px;
+    color:#39c6cd;
+    text-align:center;
+    padding-top:100px;
+    line-height:40px;
+
+}
+
+.mada{
+	font-family:Blazium;
+	font-size: 30px;
+	color:#ff8590;
+	text-align:center;
+	padding-top:0px;
+	background-color: #39c6cd；
+	
+
+   
+
+}
+
+.message{
+	font-family:Blazium ;
+	font-size:200px;
+	color:#ff8590;
+	text-align:left;
+	padding-left:40px;
+	line-height: 200px;}
+
+
+.message2{
+	font-family:Blazium;
+	font-size:100px;
+	color::#ff8590;
+	text-align:center;
+	line-height: 400px;}
+
+

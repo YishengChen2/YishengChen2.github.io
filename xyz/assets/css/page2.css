@@ -1,0 +1,55 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	background-color: #dfffc8;
+}
+
+
+
+
+span {
+	color:#ffb924;
+}
+
+
+.date {
+	font-size:80px;
+	font-family:Dubtronic;
+	color:#ffb924;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+.title {
+	text-align: left;
+	font-family:Dubtronic;
+	font-size:50px;
+    color:#91d1ff;
+    padding-top:30px;
+    text-align:center;
+
+}
+
+.mada{
+	font-family:Dubtronic;
+	text-align: left;
+	font-size: 40px;
+	padding-top:50px;
+	color:#91d1ff;
+	text-align:center;
+   
+
+}
+
+.message{
+	font-family:Advent Pro;
+	font-weight:bold;
+	font-size:80px;
+	color:#91d1ff;
+	text-align:center;
+
+
+
+}

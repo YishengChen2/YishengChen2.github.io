@@ -1,0 +1,45 @@
+body {
+	background-color:#a4d0a9 ;
+}
+
+.message{
+	font-family:Abolition;
+	font-size:100px;
+	color:#a4d0a9;
+	text-align:right;
+	line-height: 200px;
+	text-shadow:0px -10px 10px #ffe44e;
+
+}
+
+.mada{
+	font-family:Abolition;
+	font-size: 60px;
+	color:white;
+	padding-right:20px;
+	text-align:right;
+	background-color: #05450d;
+	line-height: 100px;
+
+}
+
+.title{
+	font-size:80px;
+	font-family:Abolition ;
+	background-color:#05450d;
+	animation:colorchange 5s infinite;
+}
+
+@keyframes colorchange {
+	0% {
+		color:#ffe44e;
+		transform:skew(20deg);
+		width:200px;
+	}
+	100%{
+		color:white;
+		transform:skew(-20deg);
+		width:100%;
+		letter-spacing:100px;
+	}
+
