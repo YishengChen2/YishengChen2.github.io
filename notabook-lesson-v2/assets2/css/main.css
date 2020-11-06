@@ -1,0 +1,47 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+
+img {
+	width:100%;
+}
+
+
+
+.examples .content {
+	border-radius: 80px;
+	text-align: center;
+}
+
+.twopage .col1 {
+	height:100vh;
+	background-color:#b5fd64;
+	font-family: flegrei,sans-serif;
+	font-size:200px;
+	font-style: normal;
+	color:#3b581b;
+	text-align:center;
+	line-height:50vh;
+
+}
+.twopage .col2 {
+	height:100vh;
+	overflow: scroll;
+	background-color:#eecdff;
+	font-family: apotek-comp,sans-serif;
+	font-size: 60px;
+	padding-top:100px;
+	color:black;
+	
+}
+
+
+a:hover{
+	color:#848484;
+}
