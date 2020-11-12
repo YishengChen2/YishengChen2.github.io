@@ -1,10 +1,9 @@
 body {
 	font-family: Helvetica,Arial,sans-serif;
-	font-size: 32px;
+
 }
 
 a {
-	color:black;
 	text-decoration: none;
 }
 
@@ -12,11 +11,157 @@ img {
 	width:100%;
 }
 
+.grid {
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.col {
+	padding: 20px;
+}
+
+.content {
+	padding: 20px;
+}
+
+.w-1of1 {
+	width:100%;
+}
+
+.w-1of2 {
+	width:50%;
+}
+
+.title{
+	color:#3b581b;
+}
+
+.tit{
+	font-size: 100px;
+    font-family: apotek-comp,sans-serif;
+    padding:10px;
+}
+.subtitle{
+	font-family: apotek-extrawide,sans-serif;
+	font-size: 40px;
 
 
-.examples .content {
-	border-radius: 80px;
-	text-align: center;
+}
+.little{
+	font-family: apotek-extrawide,sans-serif;
+	font-size: 20px;
+	margin-right:20px;
+	color:#a48cbe;
+	text-align:right;
+	padding:20px;
+
+}
+
+
+h1{
+	font-size:80px;
+	text-align:left;
+	margin-left:20px;
+	margin-top:5vw;
+	padding-bottom:50px;
+	color:#673c96;
+	font-family: apotek-comp,sans-serif;
+	font-weight: 700;
+    background-image:-webkit-linear-gradient(bottom,white,#673c96,#9e9bce); 
+    -webkit-background-clip:text; 
+    -webkit-text-fill-color:transparent; 
+
+
+	
+}
+
+
+h2{
+	font-size:25px;
+	text-align:left;
+	margin-left: 50px;
+	color:#673c96;
+	font-family: apotek-extrawide,sans-serif;
+	width:50%;
+}
+
+h3{
+	font-size:15px;
+	text-align:left;
+	margin-left: 200px;
+	margin-top:20px;
+	color:#673c96;
+	font-family: apotek-extrawide,sans-serif;
+	width:50%;
+}
+h4{	
+	font-size:25px;
+	text-align:left;
+	margin-left: 50px;
+	margin-top:100px;
+	color:#673c96;
+	font-family: apotek-extrawide,sans-serif;
+	width:50%;
+
+}
+
+p {
+	font-size:20px;
+	
+}
+.text p{
+	color:#95829e;
+	font-family:apotek-extrawide,sans-serif;
+
+}
+p.op{
+	float: left;
+    width: 50%;
+    margin-left:200px;
+    padding-bottom:20px;
+    padding-top:20px;
+
+
+}
+p.op2{
+	float:left;
+	width:50%;
+	margin-left:200px;
+	padding-bottom:20px;
+}
+
+p.op3{	
+	float:left;
+	width:50%;
+	margin-left:200px;
+	padding-bottom:20px;
+}
+
+}
+p.quo{
+	font-family: apotek-comp,sans-serif;
+	font-weight: 700;
+	font-size:25px;
+	float:left;
+	margin-left:30px;
+	color:#673c96;
+
+}
+
+p.quo2{
+	font-family:apotek-extrawide,sans-serif;
+        font-weight: 500;
+        font-size:18px;
+        margin-left:30px;
+        color:#c567ce;
+        line-height:1.5;
+        background-color:white;
+
+}
+
+.quo2:hover{
+	color:white;
+	background-color:#c567ce;
 }
 
 .twopage .col1 {
@@ -26,8 +171,13 @@ img {
 	font-size:200px;
 	font-style: normal;
 	color:#3b581b;
+	text-shadow: -15px -15px 10px yellow;
 	text-align:center;
-	line-height:50vh;
+	line-height:180px;
+	justify-content: center;
+	flex-wrap: wrap;
+  	align-content: center;
+  	display: flex;
 
 }
 .twopage .col2 {
@@ -35,13 +185,63 @@ img {
 	overflow: scroll;
 	background-color:#eecdff;
 	font-family: apotek-comp,sans-serif;
-	font-size: 60px;
-	padding-top:100px;
-	color:black;
+	
 	
 }
 
+.container {
+  display: inline-block;
+}
+.opimg {
+   display: none;
+   width:50%;
+   height:50%;
+   margin-left:200px;
+   padding:20px;
+}
+.hover-text{
+	font-size:25px;
+	text-align:left;
+	margin-left: 50px;
+	color:#673c96;
+	font-family: apotek-extrawide,sans-serif;}
 
-a:hover{
-	color:#848484;
+.hover-text:hover ~ .opimg {
+  display: block;  
+}
+
+.change:hover {
+	color:white;
+}
+
+.fade-in {
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
