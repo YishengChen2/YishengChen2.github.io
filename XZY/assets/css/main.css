@@ -3,12 +3,17 @@ body {
   background: black;
 }
 .btn{
-  border:1px solid #81b9ff;
-  padding:10px;
-  margin:20px;
-  border-radius: 10px;
   display:inline-block;
-  color:#81b9ff;
+  border: 2px  #81b9ff;
+  border-style:dotted;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left:150px;
+  margin-top:20px;
+  font-family: ysans-std-mondrian,sans-serif;
+  font-style: normal;
+  font-size: 22px;
+  color: #81b9ff;
 }
 
 .btn:hover{
