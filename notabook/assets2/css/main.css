@@ -136,17 +136,18 @@ p.op3{
 	margin-left:200px;
 	padding-bottom:20px;
 }
+p.op4{
+	float: left;
+    width: 50%;
+    margin-left:200px;
+    padding-bottom:20px;
+    padding-top:20px;
+    color:#c567ce;
+
 
 }
-p.quo{
-	font-family: apotek-comp,sans-serif;
-	font-weight: 700;
-	font-size:25px;
-	float:left;
-	margin-left:30px;
-	color:#673c96;
 
-}
+
 
 p.quo2{
 	font-family:apotek-extrawide,sans-serif;
