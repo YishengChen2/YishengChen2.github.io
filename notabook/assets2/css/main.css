@@ -67,7 +67,7 @@ h1{
 	color:#673c96;
 	font-family: apotek-comp,sans-serif;
 	font-weight: 700;
-    background-image:-webkit-linear-gradient(bottom,white,#673c96,#9e9bce); 
+    background-image:-webkit-linear-gradient(bottom,#b5fd64,#996fc5,#b5fd64); 
     -webkit-background-clip:text; 
     -webkit-text-fill-color:transparent; 
 
@@ -190,6 +190,65 @@ p.quo2{
 	
 }
 
+::selection {
+  background: #b5fd64;
+  color: white;
+}
+.footnote p{
+	font-size:12px;
+	line-height:15px;
+	margin-top:650px;
+	margin-left:20px;
+	margin-bottom:20px;
+	color:gray;
+	font-family:arial;
+	width: 50%;
+
+}
+
+.dropbtn {
+    background-color: #673c96;
+    color: white;
+    padding: 16px;
+    font-family:apotek-extrawide,sans-serif;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.dropdown {
+    position: fixed;
+    right:10px;
+    top:10px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #3b581b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #9c71cb}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #b5fd64;
+}
 .container {
   display: inline-block;
 }
